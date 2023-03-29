@@ -44,7 +44,7 @@ steps:
 
 - task: DotNetCoreCLI@2
   displayName: 'Publish the project - Relase'
-    inputs:
+  inputs:
     command: 'publish'
     projects: '**/*.csproj'
     publishWebProjects: false
